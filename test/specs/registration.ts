@@ -24,6 +24,5 @@ describe ('User', function () {
         const expectedText = 'Добро пожаловать на GoodiDeas!'
         assert(alertText.includes(expectedText),
             `Alert text: "${alertText}" to match expected: "${expectedText}", after success registration`)
-        
     })
 })
